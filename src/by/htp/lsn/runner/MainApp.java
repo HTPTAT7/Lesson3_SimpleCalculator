@@ -6,6 +6,7 @@ import by.htp.lsn.input.ConsoleInput;
 public class MainApp {
 
 	public static void main(String[] args) {
+		System.out.println("App start: ");
 		
 		Calculator calc = new Calculator();
 		ConsoleInput input = new ConsoleInput();
